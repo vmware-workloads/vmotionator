@@ -1,0 +1,1 @@
+EXTRA_OPTS=--config /etc/vmotionator/vmotionator.conf

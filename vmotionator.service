@@ -1,0 +1,14 @@
+[Unit]
+Description=VMotion Service
+Documentation=https://github.com/vmware-workloads/vmotionator/
+Wants=network-online.target
+After=vmtoolsd.service
+
+[Service]
+WorkingDirectory=/opt/vmotionator
+EnvironmentFile=/etc/default/vmotionator
+ExecStart=/usr/bin/pipenv run /opt/vmotionator/vmotionator.py $EXTRA_OPTS
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
