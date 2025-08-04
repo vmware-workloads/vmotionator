@@ -2,7 +2,7 @@
 
 echo -e "\033[33m╔════════════════════════════════════════╗\033[0m"
 echo -e "\033[33m║                                        ║\033[0m"
-echo -e "\033[33m║     \033[34m  VMOTINATOR INSTALLER      \033[33m       ║\033[0m"
+echo -e "\033[33m║     \033[34m  VMOTIONATOR INSTALLER      \033[33m       ║\033[0m"
 echo -e "\033[33m║                                        ║\033[0m"
 echo -e "\033[33m╚════════════════════════════════════════╝\033[0m"
 
@@ -69,6 +69,6 @@ popd > /dev/null
 echo
 echo -e "\033[33m╔════════════════════════════════════════╗\033[0m"
 echo -e "\033[33m║                                        ║\033[0m"
-echo -e "\033[33m║  \033[32m  VMNOTIFICATION INSTALL COMPLETE  \033[33m   ║\033[0m"
+echo -e "\033[33m║  \033[32m  VMOTIONATOR INSTALL COMPLETE     \033[33m   ║\033[0m"
 echo -e "\033[33m║                                        ║\033[0m"
 echo -e "\033[33m╚════════════════════════════════════════╝\033[0m"
